@@ -1,0 +1,28 @@
+@import '//fonts.googleapis.com/css?family=Montserrat';
+@import '//fonts.googleapis.com/css?family=Antonio';
+@import '//fonts.googleapis.com/css?family=Oswald';
+body {
+  margin: 0;
+}
+
+.wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: white;
+}
+
+.time-to {
+  text-align: center;
+  font-family: Montserrat;
+  color: black;
+  font-size: 35px;
+  letter-spacing: 2px;
+}
+.time-to span {
+  display: block;
+  font-family: Oswald;
+  font-size: 80px;
+  color: #c7202f;
+}
